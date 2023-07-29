@@ -1,0 +1,311 @@
+body
+{
+color: #A0A0A4;
+background-color: rgb(13, 65, 65);
+}
+#header
+{
+    border: 1px solid black;
+	width: 	1340px;
+    height: 150px;
+    margin: auto;
+    background-image: url(CNSS.PNG);
+
+}
+
+#corps
+{
+    border: 1px solid black;
+	height:1000px;
+	background-color: #A0A0A4;
+
+}
+#haut
+{
+	
+
+}
+#haut_gauche
+{
+	border: 1px solid rgb(214, 14, 14);
+	height: 495px;
+	width:750px;
+	background-image: url("IMG_1744.PNG");
+	background-size: cover;
+	background-position: center;
+}
+#haut_droite
+{
+	border: 1px solid rgb(15, 9, 9);
+	height: 498px;
+	width: 550px;
+	margin-left: 760px;
+	margin-top: -496px;
+	background-color:white;
+	
+}
+.titre
+{
+	font-size: 50px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family:'Courier New', Courier, ;
+	font-weight: bold;
+	font font-weight: hold;
+	
+}
+.titre1
+{
+	font-size: 15px;
+	background-color:black;
+	color: rgb(207, 14, 14);
+	font-family:'Courier New', Courier, ;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.titre2
+{
+	font-size: 15px;
+	background-color: black;
+	color: rgb(221, 21, 21);
+	font-family:'Courier New', Courier, ;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.titre3
+{
+	font-size: 15px;
+	background-color:black;
+	color: rgb(162, 218, 199);
+	font-family:'Courier New', Courier, ;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+#fahamu
+{
+	
+}
+#fahamu1
+{
+	font-size: 20;
+	border: 5px solid black;
+	width: 545px;
+	height: 450px;
+	color: black;
+	background-color:white;
+}
+.act1{
+	float: left;
+}
+#fahamu2
+{
+	border: 2px solid black;
+	width: 400px;
+	height: 446px;
+	margin-left: 550px;
+	margin-top: -450px;
+	color: black;
+	background-color:white;
+}
+#fahamu3
+{
+	border: 2px solid black;
+	width: 355px;
+	height: 230px;
+	margin-left: 955px;
+	margin-top: -450px;
+	color: black;
+	background-color:white;
+}
+#fahamu4
+{
+	border: 2px solid black;
+	width: 355px;
+	height: 210px;
+	margin-left: 955px;
+	background-color:white;
+	
+}
+.titre
+{
+	font-size: 20px;
+	background-color: black;
+	color: whitesmoke;
+	text-align: center;
+	font-family:'Courier New', Courier, ;
+	font-weight: bold;
+	
+}
+
+#footer
+{
+    border: 1px solid black;
+    height: 200px;
+	background-color: black;
+   
+}
+.pied{
+	display:inline-block;
+	width: 325px;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #ffffff;
+
+/* for pull-down menu to work in IE6*/
+behavior:url("csshover2.htc");
+
+}
+
+/* pull-down mainmenu css */
+.mainmenu{
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1;
+	color:#FFFF00;
+	background: #048000;
+	padding: 0;
+	border: solid #A0A0A4;
+	border-width: 1px 0;
+	margin: 0 0 1em 0;
+}
+
+.mainmenu a, .mainmenu a:visited {
+	display: block;
+font-family:'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;font-size:0.8em;font-weight:bold;font-style:normal;text-decoration:underline;
+	color: #FFFF00;
+	text-decoration: none;
+	padding: 1em 1em;
+}
+.mainmenu ul ul a{
+	width:100%;
+	height:100%;
+}
+.mainmenu ul a{
+	width:1%;
+}
+
+
+.mainmenu li  {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+.mainmenu ul li {float:left; position:relative;  }
+.mainmenu ul li a {white-space:nowrap;}
+	
+.mainmenu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width:15em;	
+	
+	background: #4bc01d;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+}
+
+.mainmenu li li {
+	width:15em ;
+}
+
+.mainmenu li li a{
+	width:13em ;
+}
+
+.mainmenu li ul  {
+	margin: 0;
+}
+.mainmenu li ul ul {
+	margin: -2.8em 0 0 13.5em;
+}
+.ul_ch, 
+.mainmenu li:hover ul ul,
+.mainmenu li li:hover ul ul,
+.mainmenu li li li:hover ul ul,
+.mainmenu li li li li:hover ul ul,
+.mainmenu li li li li li:hover ul ul
+{
+	left: -999em;
+}
+.mainmenu li:hover ul,
+.mainmenu li li:hover ul,
+.mainmenu li li li:hover ul,
+.mainmenu li li li li:hover ul,
+.mainmenu li li li li li:hover ul
+{
+	left: auto;
+}
+.mainmenu li:hover>ul.ul_ch   
+{
+	left: auto;
+}
+
+.mainmenu li:hover{
+	background: #FF0000;
+}
+
+.mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+	color:#FFFF00;
+}
+.mainmenu li:hover li a, .mainmenu li li:hover li a, 
+.mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+.mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+.mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+{
+	color:#FFFF00;
+}
+.mainmenu li li:hover, .mainmenu li li li:hover, 
+.mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+{
+	background: #B90000;
+	z-index:9999;
+}
+.mainmenu li li:hover a,.mainmenu li li li:hover a, 
+.mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+{
+	color: #d414cb; 
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited,
+.mainmenu li li a, .mainmenu li li a:visited
+{
+	color: #FFFF00;
+}
+.mainmenu ul ul a:hover,
+.mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+	color: #FFFF00;
+}
+.mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+.mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+	color: #f515ea;
+}
+
+
+/* end of mainmenu css */
+
+
+
+
